@@ -8,7 +8,7 @@
 
 ## Variables 
 
-- # of individuals
+- number of individuals
 - % of interest on each loan
 - each loan term length
 - loan amount 
