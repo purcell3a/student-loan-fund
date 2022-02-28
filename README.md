@@ -16,6 +16,7 @@
 - fund seed money (?)
 - fund interest of return 
 - fund rate of return (how often it compounds)
+- rate of payout to individuals (monthly is most efficient but is that realisitc) 
 
 ## Thoughts 
 
