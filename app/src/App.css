@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #212529f5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,20 @@
   }
 }
 
-.Container{
-  background-color: pink;
+#Main{
+  Margin: 0rem;
+  Padding: 0rem;
+  background-color: #ffffff;
+  Width: 100vw;
+  Height: 70vh;
 }
+
+.full-width{
+  Width: 100vw;
+}
+
+#compound-calc{
+  background-color: red;
+  Width: 100vw;
+}
+

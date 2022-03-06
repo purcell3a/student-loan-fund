@@ -1,14 +1,16 @@
 import './App.css';
+import React from 'react';
 import CompoundCalc from './compound-calc'
+import Main from './main'
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment >
       <header className="App-header">
-      Work In Progress!
+      <Main/>
       <CompoundCalc/>
       </header>
-    </div>
+    </React.Fragment>
   );
 }
 

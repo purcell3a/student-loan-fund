@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import DollaDollaInput from './dollar-input.js'
@@ -9,22 +10,22 @@ import DepositFrequency from "./deposit-frequency.js"
 
 function CompoundCalc() {
   return (
-    <div className="App">
-      <header className="App-header">
-            <Container>
-            <Row className="justify-content-md-center">
-                <Col>Seed Amount
-                    <DollaDollaInput/>
-                </Col>
+    <React.Fragment id="compound-calc">
 
-                <Col> Regular Deposit
-                    <DollaDollaInput/>
-                </Col>
-                
-                <Col>Deposit Frequency
-                  <DepositFrequency/>
-                </Col>
-            </Row>
+              <Row className="justify-content-md-center">
+
+                  <Col>Fund Value
+                      <DollaDollaInput/>
+                  </Col>
+
+                  <Col> Regular Deposit
+                      <DollaDollaInput/>
+                  </Col>
+                  
+                  <Col>Deposit Frequency
+                    <DepositFrequency/>
+                  </Col>
+              </Row>
             <Row>
                 <Col>Number of Years
                     <Years/>
@@ -36,9 +37,8 @@ function CompoundCalc() {
                   <CompoundFrequency/>
                 </Col>
             </Row>
-            </Container>
-      </header>
-    </div>
+ </React.Fragment>
+
   );
 }
 
