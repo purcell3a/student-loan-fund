@@ -1,9 +1,12 @@
 import { Navbar, Container, NavDropdown, Nav} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import Main from './main'
+import React from 'react';
 
 function Header() {
   return (
-
+    <React.Fragment>
+    
         <Navbar bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">TrueAdvocate</Navbar.Brand>
@@ -19,6 +22,10 @@ function Header() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+
+        <Main/>
+
+    </React.Fragment>
 
   );
 }

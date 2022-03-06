@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #212529f5;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,3 +54,13 @@
   Width: 100vw;
 }
 
+#Compound-Calc-Container{
+  padding: 3rem;
+  background-color:#212529;
+  min-width: 100vw;
+  min-height: 30vh;
+}
+
+h3{
+  color:white;
+}

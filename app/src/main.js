@@ -9,8 +9,8 @@ function Main() {
 
             <Row id='Main'>
                 <Col>
-                    <Card.Text id=''>
-                        Column one
+                    <Card.Text id='main-text'>
+                       <p> This Website is a Work In Progress</p>
                     </Card.Text>
                 </Col>
 

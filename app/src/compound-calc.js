@@ -10,34 +10,47 @@ import DepositFrequency from "./deposit-frequency.js"
 
 function CompoundCalc() {
   return (
-    <React.Fragment id="compound-calc">
 
-              <Row className="justify-content-md-center">
+    <Container id="Compound-Calc-Container">
 
-                  <Col>Fund Value
-                      <DollaDollaInput/>
-                  </Col>
+      <Row className="justify-content-md-center">
 
-                  <Col> Regular Deposit
-                      <DollaDollaInput/>
-                  </Col>
+        <Col>
+          <h3><small>Fund Value</small></h3>
+          <DollaDollaInput/>
+        </Col>
+
+        <Col>
+            <h3><small>Regular Deposit</small></h3>
+            <DollaDollaInput/>
+        </Col>
                   
-                  <Col>Deposit Frequency
-                    <DepositFrequency/>
-                  </Col>
-              </Row>
-            <Row>
-                <Col>Number of Years
-                    <Years/>
-                </Col>
-                <Col>Interest Rate
-                    <InterestRate/>
-                </Col>
-                <Col>Compound Frequency
-                  <CompoundFrequency/>
-                </Col>
-            </Row>
- </React.Fragment>
+        <Col>
+            <h3><small>Deposit Frequency</small></h3>
+            <DepositFrequency/>
+        </Col>
+
+      </Row>
+      <Row>
+                
+        <Col>
+          <h3><small>Number of Years</small></h3>
+          <Years/>
+        </Col>
+        
+        <Col>
+          <h3><small>Interest Rate</small></h3>
+          <InterestRate/>
+        </Col>
+               
+        <Col>
+          <h3><small>Compound Frequency</small></h3>
+          <CompoundFrequency/>
+        </Col>
+
+      </Row>
+    </Container>
+
 
   );
 }
